@@ -1,5 +1,3 @@
-In this session, I'll give an overview of machine learning techniques in general, and then go into a bit more depth about random forest methods.
+In this session, I'll give an overview of machine learning techniques in general, with an ultimate focus on the random forest method of machine learning.
 
-In the coding section, I'll use the caret package for model building, [example single cell RNAseq data](example.rds), and my own package [RNAseqPlotR](https://github.com/dtm2451/RNAseqPlotR) for visualization of the results.
-
-The major goal will be to teach about machine learning, but I also do want to focus a fair amount on my RNAseqPlotR (name-not-finalized =p) package.  It's a package that I have been writing in order to make scRNAseq analysis more accessible to novice coders & color-blind indidivuals like myself.
+The major goal will be to teach about machine learning, but as long as time permits, I will also give an overview of my scRNAseq package that I have been downloading tentatively called [DittoSeq](https://github.com/dtm2451/DittoSeq).  It's a package that I have been writing in order to make scRNAseq analysis more accessible to novice coders & color-blind indidivuals (like myself).  As of this week, the package can be installed with the code `devtools::install_github("dtm2451/DittoSeq")`.  Downloading this package will be purely optional for my session, though I do hope you will find it useful and give it a try!
