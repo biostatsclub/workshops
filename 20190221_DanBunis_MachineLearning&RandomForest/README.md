@@ -17,10 +17,20 @@ install.packages("randomForest")
 #OPTIONAL: DittoSeq
 install.packages("devtools")
 devtools::install_github("dtm2451/DittoSeq")
+
+#If you recieve an error for DESeq2 or any dependent package's installation, for example,
+> Error: (converted from warning) package ‘DESeq2’ is not available (for R version 3.5.2)
+# my installation troubleshooting protocol is this:
+BiocManager::install("package")
+install.packages("package") # I try both, and normally one will work.
+# - Run install.packages("BiocManager") first if you don't have it.  (This is the new version of biocLite().)
+# If I get an error due to a package already being loaded into the environment:
+#     *Save your files!* Then terminate your R session (Session > Terminate R... at the top), then retry installatino.
 ```
 
-## Extra Resources:
+## Resources:
 
 - A pretty good overview of different forms of machine learning by [MathWorks](https://www.mathworks.com/discovery/machine-learning.html)
+- "Ten quick tips for machine learning in computational biology" [Chicco 2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5721660/)
 - A random forest specific overview / tutorial by the [Oxford Protein Informatics Group](https://www.blopig.com/blog/2017/04/a-very-basic-introduction-to-random-forests-using-r/)
 
