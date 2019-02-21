@@ -30,9 +30,10 @@ install.packages("package") # I try both, and normally one will work.
 
 ## Optional Dataset:
 I will not go over this during the session, but if you would like to try out DittoSeq on a public dataset:
-A pre-processed version of the Satija lab's [3k PBMC data](https://ucsf.box.com/s/3lwwwingjinshfj69y3diyhaoa1b5b6w)
+A pre-processed version of the Satija lab's [3k PBMC data](https://ucsf.box.com/s/3lwwwingjinshfj69y3diyhaoa1b5b6w) and a commented script to go along with it that goes through most of the DittoSeq plot customization options. [DittoSeq_examples_with_a_public_dataset.R script](DittoSeq_examples_with_a_public_dataset.R)
+
+
 Warning: Seurat data gets pretty large, but this is a 'small' one at 272MB
-[DittoSeq examples with a public dataset.R script](DittoSeq examples with a public dataset.R)
 
 ## Resources:
 
