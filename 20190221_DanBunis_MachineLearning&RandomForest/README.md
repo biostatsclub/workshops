@@ -8,6 +8,9 @@ In the second half of the coding section, as long as time permits, I'll mix toge
 
 DittoSeq is a package that I have been writing in order to make scRNAseq analysis more accessible to novice coders & color-blind indidivuals (like myself).  Downloading this package will be purely optional for my session, though I do hope you will find it useful and give it a try!
 
+## Dataset: A pre-processed version of the Satija lab's 3k PBMC data
+[Download this](pbmc.rds)
+
 ## Installation Instructions
 
 ```
