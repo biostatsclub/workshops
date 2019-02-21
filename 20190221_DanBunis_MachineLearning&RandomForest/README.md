@@ -4,7 +4,7 @@ In this session, I'll give an overview of machine learning techniques in general
 
 In the first part of the coding section, we will be working with the iris dataset, base-R, and the randomForest package, not base-R, so you will need to have that downloaded.
 
-In the second half of the coding section, I'll mix together a tutorial of, [DittoSeq](https://github.com/dtm2451/DittoSeq), my new scRNAseq visualization package, with how I personally used random forest in my scRNAseq project.
+In the second half of the coding section, I'll mix together a tutorial of, [DittoSeq](https://github.com/dtm2451/DittoSeq), my new scRNAseq visualization package, with how I personally used random forest in my scRNAseq project.  That will involve going through this [.rmd editable code](https://ucsf.box.com/s/ll291cnz5fmh7gj5aby5pbxve7h5e4st) & it's [.html code and output](https://ucsf.box.com/s/d9ccbvfnlvn6ako9ek1fyeuoyf1dhkh3) output which you can access through box.  Unpublished, unfortunately, so I cannot share the actual data.
 
 DittoSeq is a package that I have been writing in order to make scRNAseq analysis more accessible to novice coders & color-blind indidivuals (like myself).  Downloading this package will be purely optional for my session, though I do hope you will find it useful and give it a try!
 
