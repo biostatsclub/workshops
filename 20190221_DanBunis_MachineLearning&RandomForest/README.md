@@ -2,14 +2,11 @@
 
 In this session, I'll give an overview of machine learning techniques in general, with an ultimate focus on the random forest method of machine learning.
 
-In the first part of the coding section, we will be working with the randomForest package, so you will need to have that downloaded if you would like to follow along.
+In the first part of the coding section, we will be working with the iris dataset, base-R, and the randomForest package, not base-R, so you will need to have that downloaded.
 
-In the second half of the coding section, as long as time permits, I'll mix together a tutorial of, [DittoSeq](https://github.com/dtm2451/DittoSeq), my new scRNAseq visualization package, with how I personally used random forest in my scRNAseq project.
+In the second half of the coding section, I'll mix together a tutorial of, [DittoSeq](https://github.com/dtm2451/DittoSeq), my new scRNAseq visualization package, with how I personally used random forest in my scRNAseq project.
 
 DittoSeq is a package that I have been writing in order to make scRNAseq analysis more accessible to novice coders & color-blind indidivuals (like myself).  Downloading this package will be purely optional for my session, though I do hope you will find it useful and give it a try!
-
-## Dataset: A pre-processed version of the Satija lab's 3k PBMC data
-[Download this](pbmc.rds)
 
 ## Installation Instructions
 
@@ -30,6 +27,12 @@ install.packages("package") # I try both, and normally one will work.
 # If I get an error due to a package already being loaded into the environment:
 #     *Save your files!* Then terminate your R session (Session > Terminate R... at the top), then retry installatino.
 ```
+
+## Optional Dataset:
+I will not go over this during the session, but if you would like to try out DittoSeq on a public dataset:
+A pre-processed version of the Satija lab's [3k PBMC data](https://ucsf.box.com/s/3lwwwingjinshfj69y3diyhaoa1b5b6w)
+Warning: Seurat data gets pretty large, but this is a 'small' one at 272MB
+[DittoSeq examples with a public dataset.R script](DittoSeq examples with a public dataset.R)
 
 ## Resources:
 
