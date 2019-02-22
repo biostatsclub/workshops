@@ -40,4 +40,5 @@ Warning: Seurat data gets pretty large, but this is a 'small' one at 272MB
 - A pretty good overview of different forms of machine learning by [MathWorks](https://www.mathworks.com/discovery/machine-learning.html)
 - "Ten quick tips for machine learning in computational biology" [Chicco 2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5721660/)
 - A random forest specific overview / tutorial by the [Oxford Protein Informatics Group](https://www.blopig.com/blog/2017/04/a-very-basic-introduction-to-random-forests-using-r/)
+- A better though also longer tutorial than mine by the [Berkeley dlab](https://github.com/dlab-berkeley/Machine-Learning-in-R)
 
